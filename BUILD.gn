@@ -948,7 +948,8 @@ angle_shared_library("libEGL") {
 
   deps = [
     ":angle_common",
-    ":angle_system_utils",
+    # angle_system_utils are already included in angle_common.
+    # ":angle_system_utils",
     ":angle_version",
     ":libEGL_egl_loader",
   ]
