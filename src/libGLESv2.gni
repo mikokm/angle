@@ -356,6 +356,7 @@ libangle_sources = [
   "src/libANGLE/renderer/load_functions_table_autogen.cpp",
   "src/libANGLE/renderer/renderer_utils.cpp",
   "src/libANGLE/renderer/renderer_utils.h",
+  "src/libANGLE/renderer/gl/functionsgl_enums.h",
   "src/libANGLE/validationEGL.cpp",
   "src/libANGLE/validationEGL.h",
   "src/libANGLE/validationES.cpp",
